@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+  width: 100% auto;
+  height: 60px;
+  background-color: #f1c232;
+  border-bottom: 2px solid;
+}
+
+/*Lo que hace #titulo es darle tamaño y tipo de fuente unicamente al titulo principal de la pagina, 
+asigna un espacio del 30% de la pantalla para que quede bien distribuido el titulo y el menu, 
+float left para hacer que los demas items de la lista entren a la derecha del titulo y margin y padding para
+separar un poco el contenedor del titulo del borde de la pantalla  */
+.titulo {
+  font-size: 2.1em;
+  font-family: "Roboto";
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 250px;
+}
+
+/* float hace que se convierta en un contenedor flotante y se pueda unir al titulo, y se le da el width auto
+para que se complete solo despues del tamaño que tomo el titulo*/
+.cajamenu {
+  float: left;
+  width: auto;
+}
+
+/* la direccion nav ul hace que la lista desordenada se le quiten los puntos de la viñeta
+*/
+.cajamenu nav ul {
+  list-style: none;
+}
+
+/*la direccion nav ul li hace que todos los mini contenedores se alinien a la izquiera para hacer el menu horizontal
+*/
+.cajamenu nav ul li {
+  float: left;
+}
+
+.cajamenu a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 5px 35px;
+  margin: 10px 10px;
+  font-family: "Nunito";
+  font-size: 1.2em;
+  background-color: #66ccff;
+  border-radius: 10px;
+}
+
+.titulo_centro {
+  padding-top: 60px;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 2em;
+  padding-bottom: 40px;
+}
+
+#seccion_1 {
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 140px;
+  padding-bottom: 950px;
+}
+
+#seccion_1 figure {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#seccion_1 figure img {
+  margin-left: auto;
+  padding: 4px;
+  background-color: rgb(92, 90, 90);
+  border-radius: 20px;
+  -ms-transition: -ms-transform 0.3s ease-in-out 0.1s;
+  transition: transform 0.3s ease-in-out 0.1s;
+  width: 500px;
+  height: 350px;
+}
+
+#seccion_1 figure img:hover {
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#descripcion_local {
+  height: 150px;
+  width: 92%;
+  border: 3px solid;
+  border-radius: 20px;
+  background-color: #f5d46f;
+}
+
+#tipo_local {
+  font-family: "Nunito";
+  font-size: 0.8em;
+  text-align: left;
+  padding: 10px 14px;
+  width: auto;
+  border-radius: 10px;
+}
+
+#nombre_local {
+  font-family: "Roboto";
+  font-size: 1.6em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#mini_descripcion {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  margin: 10px auto;
+  font-family: "Nunito";
+}
+
+#boton_visitar p {
+  font-family: "Nunito";
+  margin: auto 200px;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 20px;
+  background-color: #66ccff;
+  text-decoration: none;
+}
+
+#boton_visitar a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenedor_busqueda {
+  width: 100%;
+  margin-top: 20px;
+  height: 100vh;
+  padding: 80px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+}
+
+.division {
+  padding: 10px;
+  margin: 10px auto;
+  width: 50%;
+  height: auto;
+  background-color: #f5d46f;
+  border: 3px solid;
+  border-radius: 20px;
+}
+
+.division h2{
+  font-family: "Roboto";
+  font-size: 3em;
+  text-align:center;
+  
+}
+
+#barra_busqueda {
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  border: 3px solid;
+  border-radius: 20px;
+}
+
+#barra_busqueda p{
+  text-align: left;
+  padding: 15px;
+}
+
+.tablita{
+  padding-top: 40px;
+  list-style: none;
+}
+
+.tablita_item{
+  width: 60%;
+  height: 20px;
+  border: 3px solid ;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 18%;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Nunito";
+  font-size: 1.2em;
+}
+
+
+.formulario {
+  width: 100%;
+  height: 50vh;
+  padding: 80px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+}
+
+.foto_perfil {
+  margin-left: 40%;
+  padding: 5px;
+  width: 45%;
+  height: 100%;
+  background-image: url("../images/Icono\ Usuario.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.datos {
+  padding: 20px;
+  margin-left: 20px;
+  width: 70%;
+  height: 30vh;
+  background-color: #f5d46f;
+  border: 3px solid;
+  border-radius: 20px;
+
+}
+
+.ingresar_datos{
+  padding: 2px;
+  margin: 8px auto;
+
+}
+
+.ingresar_datos p{
+    font-family: "Nunito";
+    width: 90%;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 5px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+.captcha{
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  margin-left: 25%;
+}
+
+.captcha p{
+  display: flex;
+  align-items: center;
+  font-family: "Nunito";
+  font-size: 1.2em;
+}
+
+#cuadrito_captcha{
+  margin: auto 20px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 10px;
+
+}
+
+.inicio_externo{
+  width: 50%;
+  height: 180px;
+  margin-left: 115%;
+  margin-top: 20px;
+  display: grid;
+}
+
+.inicio_externo p{
+  height: 50px;
+  width: 50%;
+  margin: 5px auto ; 
+  border: 2px solid;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  font-family: "Nunito";
+  text-align: center;
+
+}
+
+
+footer {
+  padding-top: auto;
+}
+
+.pie {
+  float: left;
+  background-color: #f1c232;
+  height: auto;
+  width: 100%;
+}
+
+.pie p {
+  font-family: "Nunito";
+  color: black;
+  display: block;
+  padding: 5px 60px;
+  margin: 5px 100px;
+  float: left;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.pie a {
+  color: black;
+}
