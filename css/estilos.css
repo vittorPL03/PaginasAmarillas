@@ -209,6 +209,10 @@ para que se complete solo despues del tamaño que tomo el titulo*/
   margin-bottom: 40px;
 }
 
+.ingresar_datos p{
+  background-color: white;
+}
+
 .foto_perfil {
   margin-left: 40%;
   padding: 5px;
@@ -270,6 +274,7 @@ para que se complete solo despues del tamaño que tomo el titulo*/
   height: 30px;
   border: 2px solid;
   border-radius: 10px;
+  background-color: white;
 
 }
 
